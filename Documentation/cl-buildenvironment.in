@@ -2,7 +2,7 @@ export NXP_RELEASE=lf-5.15.5-1.0.0
 export NXP_FIRMWARE=firmware-imx-8.15.bin
 export NXP_PLATFORM=imx8mp
 
-export CPL_META_LAYER=https://github.com/compulab-yokneam/meta-bsp-imx8mp.git
+export CPL_META_LAYER=https://github.com/experientials/meta-bsp-929.git
 export CPL_META_BRANCH=honister
 export CPL_BRANCH=compulab-${NXP_RELEASE}
 export CPL_MACHINES="ucm-imx8m-plus som-imx8m-plus"

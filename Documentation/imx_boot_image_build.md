@@ -14,8 +14,8 @@ cd imx8mp
 
 * Download CompuLab BSP
 <pre>
-git clone -b ${CPL_BRANCH} https://github.com/compulab-yokneam/meta-bsp-imx8mp.git
-export DEV_SHELL=$(pwd)/meta-bsp-imx8mp/Documentation
+git clone -b ${CPL_BRANCH} https://github.com/experientials/meta-bsp-929.git
+export DEV_SHELL=$(pwd)/meta-bsp-929/Documentation
 </pre>
 
 * Run the developmet shell and follow the on screen instructions:

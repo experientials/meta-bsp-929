@@ -36,8 +36,8 @@ export SRC_ROOT=$(pwd)
 
 * Download CompuLab BSP
 <pre>
-git clone -b ${CPL_BRANCH} https://github.com/compulab-yokneam/meta-bsp-imx8mp.git
-export PATCHES=$(pwd)/meta-bsp-imx8mp/recipes-kernel/linux/compulab/imx8mp
+git clone -b ${CPL_BRANCH} https://github.com/experientials/meta-bsp-929.git
+export PATCHES=$(pwd)/meta-bsp-929/recipes-kernel/linux/compulab/imx8mp
 </pre>
 
 ## CompuLab Linux Kernel setup
@@ -50,7 +50,7 @@ git -C linux-imx am ${PATCHES}/*.patch
 
 * Add the linux-rt patches (optional):
 <pre>
-export PATCHES=$(pwd)/meta-bsp-imx8mp/recipes-kernel/linux-rt/compulab/imx8mp
+export PATCHES=$(pwd)/meta-bsp-929/recipes-kernel/linux-rt/compulab/imx8mp
 git -C linux-imx am ${PATCHES}/*.patch
 cd linux-imx
 scripts/kconfig/merge_config.sh  -O arch/arm64/configs/ -m  arch/arm64/configs/${MACHINE}_defconfig arch/arm64/configs/rt.config

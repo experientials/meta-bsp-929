@@ -3,7 +3,7 @@
 MACHINE=${MACHINE:-ucm-imx8m-plus}
 DISTRO=${DISTRO:-fsl-imx-xwayland}
 EULA=1
-T="../sources/meta-bsp-imx8mp/templates"
+T="../sources/meta-bsp-929/templates"
 
 BD=$(cat <<< $@ | awk '$0=$NF')
 

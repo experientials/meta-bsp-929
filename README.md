@@ -30,7 +30,7 @@ repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linu
 * CompuLab
 ```
 mkdir -p .repo/local_manifests
-wget --directory-prefix .repo/local_manifests https://raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx8mp/kirkstone/scripts/meta-bsp-imx8mp.xml
+wget --directory-prefix .repo/local_manifests https://raw.githubusercontent.com/experientials/meta-bsp-929/kirkstone/scripts/meta-bsp-929.xml
 ```
 
 * Sync Them all
@@ -62,3 +62,12 @@ cd tmp/deploy/images/${MACHINE}
 ```
 sudo bmaptool copy imx-image-multimedia-${MACHINE}.wic.bz2 --bmap imx-image-multimedia-${MACHINE}.wic.bmap /dev/sdX
 ```
+
+### Camera Support patched in
+
+- IMX477 1/2.3" 12MP 4:3 DOL-HDR
+- AR0234
+- AR0521 1/2.5" 5MP 4:3 y-2020
+- AR1335
+
+

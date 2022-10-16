@@ -1,1 +1,1 @@
-BBLAYERS += "${BSPDIR}/sources/meta-bsp-imx8mp"
+BBLAYERS += "${BSPDIR}/sources/meta-bsp-929"

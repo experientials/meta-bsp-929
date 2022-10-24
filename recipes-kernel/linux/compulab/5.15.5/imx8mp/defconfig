@@ -4342,6 +4342,7 @@ CONFIG_VIDEO_IR_I2C=m
 # CONFIG_VIDEO_HI556 is not set
 # CONFIG_VIDEO_IMX208 is not set
 # CONFIG_VIDEO_IMX214 is not set
+# TODO where is this option configured as possible?
 CONFIG_VIDEO_IMX219=m
 # CONFIG_VIDEO_IMX258 is not set
 # CONFIG_VIDEO_IMX274 is not set

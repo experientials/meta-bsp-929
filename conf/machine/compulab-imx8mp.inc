@@ -38,7 +38,7 @@ IMX_BOOT_SOC_TARGET = "iMX8MP"
 SERIAL_CONSOLES = "115200;ttymxc1 115200;ttyGS0"
 
 # Linux runs the peripheral features for now. In future the M7 will take over.
-KERNEL_MODULE_AUTOLOAD += " g_cdc"
+KERNEL_MODULE_AUTOLOAD += " cdc_ether g_ether"
 
 LOADADDR = ""
 UBOOT_SUFFIX = "bin"
